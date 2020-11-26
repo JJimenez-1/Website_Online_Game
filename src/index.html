@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible">
-    <link rel ="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Santo grial</title>
-</head>
-<body>
-    
-    <header>
-        <div class="menu_bar">
-            <img src="../assets/img/logo_grial.jpg" alt>
-            <a href="#" class="bt-menu"><span class="icon-list2"></span>Menu<a>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="topnav1" id="myTopnav">
+            <img src="../assets/img/logo_grial.png" alt />
+            <h1>Santo Grial</h1>
+          <button class="login">Login</button>
         </div>
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Inicio</a>
-                </li>
-                <li>
-                    <a href="#">Personajes</a>
-                </li>
-                <li>
-                    <a href="#">Actualizaciones</a>
-                </li>
-                <li>
-                    <a href="#">Eventos</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <p>La Guerra por el Santo Grial es un ritual en la cual siete magos (denominados «Masters») convocan a siete espíritus heroicos (llamados «Servants»), que librarán batallas entre sí, y en donde el último equipo en sobrevivir, podrá obtener el Santo Grial, el cual puede conceder cualquier deseo.</p>
-    </section>
-    <!-- Wrapper Ends -->
-</body>
+        <div class="topnav2" id="hamburguer">
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
+
+      <!-- <footer>
+        <button class="submit">Login</button>
+        <a href="#" class="bt-menu">
+          <span class="fas fa-bars"></span>
+        </a>
+        <p float="right">&#169; 2020 José Jiménez Beltrán</p> -->
+      <!-- Navigation -->
+      <!-- </footer> -->
+      <!-- Wrapper Ends -->
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="./js/menu.js"></script>
+    </div>
+  </body>
 </html>
