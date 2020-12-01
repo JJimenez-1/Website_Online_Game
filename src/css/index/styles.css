@@ -2,10 +2,12 @@
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(97, 159, 252);
+  background-image: url("../../../assets/img/Wiki-background.jpg");
+  background-position: center;
 }
 
 
+/* Banner */
 .banner {
 
   font-size: 4vw;
@@ -15,13 +17,21 @@ body {
 }
 .banner img{
   width: 100%;
+  height: 350px;
+  margin-top: 30px;
 
 }
 
+.banner p {
+  text-align: justify;
+  font-size: 20px;
+}
+/* Navbar */
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color:   rgb(0, 183, 255);
+  opacity: 0.8;
 }
 
 .topnav a {
@@ -40,7 +50,8 @@ body {
 }
 
 .topnav a.active {
-  background-color:  #333;
+  background-color:  rgb(0, 183, 255);
+  opacity: 0.8;
   color: white;
 }
 
@@ -48,6 +59,114 @@ body {
   display: none;
 }
 
+ 
+.logo {
+  background-color: #fefffe;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.logo img {
+  width: 50%;
+  padding: 10px;
+}
+
+/* Noticais */
+
+.noticias {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.noticias :nth-child(3) {
+  width: 100%;
+}
+
+/* Personajes */
+.personajes {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.personajes :nth-child(1) {
+  text-align: center;
+  width: 90%;
+  height: 400px;
+}
+
+.personajes :nth-child(2) {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 45%;
+}
+.personajes :nth-child(3) {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 45%;
+}
+
+.personajes .destacado2{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 300px;
+}
+
+.personajes .destacado3{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 300px;
+}
+
+/* Footer */
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 125px;
+  background-color: rgb(0, 183, 255);
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.footer button {
+    text-decoration: none;
+    padding: 10px;
+    width: 15%;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.footer img {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.footer p {
+  align-items: right;
+  font-size: 10px;
+}
+
+/* Media queris for navbar */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -68,19 +187,5 @@ body {
     display: block;
     text-align: left;
   }
-}
-
-.logo {
-  background-color: #fefffe;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-}
-
-.logo img {
-  width: 50%;
-  padding: 10px;
 }
 
