@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -6,20 +5,17 @@ body {
   background-position: center;
 }
 
-
 /* Banner */
 .banner {
-
   font-size: 4vw;
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.banner img{
+.banner img {
   width: 90%;
   height: 350px;
   margin-top: 30px;
-
 }
 
 .banner p {
@@ -32,7 +28,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.video iframe{
+.video iframe {
   text-align: center;
   width: 350px;
   height: 300px;
@@ -42,7 +38,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color:   rgb(0, 183, 255);
+  background-color: rgb(0, 183, 255);
   opacity: 0.8;
 }
 
@@ -62,7 +58,7 @@ body {
 }
 
 .topnav a.active {
-  background-color:  rgb(0, 183, 255);
+  background-color: rgb(0, 183, 255);
   opacity: 0.8;
   color: white;
 }
@@ -71,14 +67,12 @@ body {
   display: none;
 }
 
- 
 .logo {
   background-color: #fefffe;
   color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .logo img {
@@ -89,7 +83,7 @@ body {
 /* Noticais */
 
 .noticias {
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -98,14 +92,25 @@ body {
   width: 100%;
 }
 
+.tweets {
+  width: 350px;
+  text-align: left;
+}
+
+.twitter-tweet {
+  text-align: left;
+}
+
+.anuncio {
+  width: 100%;
+}
 /* Personajes */
 .personajes {
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 
 .personajes :nth-child(1) {
   text-align: center;
@@ -126,7 +131,7 @@ body {
   width: 45%;
 }
 
-.personajes .destacado2{
+.personajes .destacado2 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -134,7 +139,7 @@ body {
   height: 300px;
 }
 
-.personajes .destacado3{
+.personajes .destacado3 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -160,11 +165,11 @@ body {
 }
 
 .footer button {
-    text-decoration: none;
-    padding: 10px;
-    width: 15%;
-    font-size: 15px;
-    border-radius: 6px;
+  text-decoration: none;
+  padding: 10px;
+  width: 15%;
+  font-size: 15px;
+  border-radius: 6px;
 }
 
 .footer img {
@@ -180,15 +185,23 @@ body {
 
 /* Media queris for navbar */
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
   }
+
+  .tweets :nth-child(3), .tweets :nth-child(5) {
+    display:none !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -199,5 +212,9 @@ body {
     display: block;
     text-align: left;
   }
-}
 
+  .footer p {
+    align-items: right;
+    font-size: 5vw;
+  }
+}
