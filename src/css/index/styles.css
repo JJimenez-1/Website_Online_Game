@@ -1,33 +1,41 @@
 body {
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Times New Roman, Geneva, Tahoma, sans-serif;
   background-image: url("../../../assets/img/Wiki-background.jpg");
   background-position: center;
 }
 
 /* Banner */
+
 .banner {
   font-size: 4vw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .banner img {
   width: 90%;
   height: 350px;
   margin-top: 30px;
 }
 
-.banner p {
-  text-align: justify;
-  font-size: 20px;
+.historia {
+  margin: 30px;
+  padding: 30px;
+}
+
+.historia p {
+  font-size: 30px;
 }
 
 /* Video */
+
 .video {
   display: flex;
   justify-content: center;
 }
+
 .video iframe {
   text-align: center;
   width: 350px;
@@ -38,7 +46,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(30, 5, 141);
   opacity: 0.8;
 }
 
@@ -58,7 +66,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(30, 5, 141);
   opacity: 0.8;
   color: white;
 }
@@ -104,7 +112,9 @@ body {
 .anuncio {
   width: 100%;
 }
+
 /* Personajes */
+
 .personajes {
   display: flex;
   justify-content: center;
@@ -124,6 +134,7 @@ body {
   margin-bottom: 20px;
   width: 45%;
 }
+
 .personajes :nth-child(3) {
   text-align: center;
   margin-top: 20px;
@@ -153,37 +164,29 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 125px;
-  background-color: rgb(0, 162, 255);
+  height: 150px;
+  background-color: rgb(30, 5, 141);
   color: white;
   text-align: center;
   opacity: 0.8;
   display: flex;
   flex-wrap: wrap;
-
   justify-content: space-around;
 }
 
-.footer button {
-  text-decoration: none;
-  padding: 10px;
-  width: 15%;
-  font-size: 15px;
-  border-radius: 6px;
+.footer a {
+  color: white;
 }
-
 .footer img {
   margin-top: 10px;
-  width: 50px;
-  height: 50px;
-}
-
-.footer p {
-  align-items: right;
-  font-size: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 /* Media queris for navbar */
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -192,9 +195,8 @@ body {
     float: right;
     display: block;
   }
-
   .tweets :nth-child(3), .tweets :nth-child(5) {
-    display:none !important;
+    display: none !important;
   }
 }
 
@@ -212,9 +214,86 @@ body {
     display: block;
     text-align: left;
   }
-
   .footer p {
     align-items: right;
-    font-size: 5vw;
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .banner img {
+    width: 70%;
+    height: 350px;
+    margin-top: 30px;
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .video iframe {
+    text-align: center;
+    width: 450px;
+    height: 300px;
+  }
+  .tweets {
+    width: 500px;
+    text-align: left;
+  }
+  .anuncio {
+    width: 100%;
+    height: 200px;
+  }
+  .personajes :nth-child(1) {
+    text-align: center;
+    width: 80%;
+    height: 400px;
+  }
+  .footer img {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner img {
+    width: 750px;
+    height: 500px;
+    margin-top: 30px;
+  }
+
+  .video iframe {
+    text-align: center;
+    width: 650px;
+    height: 400px;
+  }
+
+  .anuncio {
+    width: 70%;
+    margin: 30px;
+    height: 200px;
+  }
+
+  .personajes :nth-child(1) {
+    text-align: center;
+    width: 70%;
+    height: 400px;
+  }
+
+  .footer img {
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .footer p {
+      align-items: right;
+      font-size: 2vw;
+  }
+
+  .link {
+    width: 60%;
+    height: 60px;
   }
 }
