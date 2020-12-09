@@ -1,6 +1,3 @@
-
-> _**Advertencia**: La pagina solo esta termianda para que sea desde una version de mobile. Todavia faltaria aplicar css y mas cosas para una version de web._
-
 # Fate Grand Order
 Fate Grand Order es un videojuego móvil de rol japonés gratuito en línea, desarrollado por Delightworks con Unity, y publicado por Aniplex.
 El juego se centra en el combate por turnos en el que el jugador, que asume el papel de un "Maestro", convoca y ordena poderosos familiares conocidos como "Servants" para luchar contra los enemigos. La narración de la historia se presenta en un formato de novela visual, y cada sirviente tiene su propio escenario que el jugador puede explorar.
@@ -16,3 +13,11 @@ Fate/Grand Order recaudó $ 982 millones en 2017, por lo que es el sexto juego m
 
 ### Cambios realizados en en tema de Wireframe
 - Ha habido muchos cambios en la estructura de todo la pagina, ya que al momento de crearla, tuve varios dolores de cabeza y preferí simplifcarlo y tener algo que quedara de manera profesional.
+
+### Colores usados
+
+![Ejemplo1](/doc/fuente_color/Captura.PNG)
+
+### Fuente usadas
+He utilizado vw para algunas letras, ya que no acertaba bien con la cantidad de pixeles a la hora de verse en el navegador y movil.
+![Ejemplo1](/doc/fuente_letra/Captura.PNG)

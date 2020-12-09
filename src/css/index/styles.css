@@ -177,6 +177,7 @@ body {
 .footer a {
   color: white;
 }
+
 .footer img {
   margin-top: 10px;
   margin-left: 20px;
@@ -261,37 +262,31 @@ body {
     height: 500px;
     margin-top: 30px;
   }
-
   .video iframe {
     text-align: center;
     width: 650px;
     height: 400px;
   }
-
   .anuncio {
     width: 70%;
     margin: 30px;
     height: 200px;
   }
-
   .personajes :nth-child(1) {
     text-align: center;
     width: 70%;
     height: 400px;
   }
-
   .footer img {
     width: 70px;
     height: 70px;
     margin-left: 40px;
     margin-right: 40px;
   }
-
   .footer p {
-      align-items: right;
-      font-size: 2vw;
+    align-items: right;
+    font-size: 2vw;
   }
-
   .link {
     width: 60%;
     height: 60px;

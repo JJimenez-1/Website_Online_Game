@@ -1,5 +1,4 @@
-var url =
-  "https://my-json-server.typicode.com/JJimenez-1/API_Fake/characters";
+var url = "https://my-json-server.typicode.com/JJimenez-1/API_Fake/characters";
 
 /**
  * Gets an array with the data of the characters
@@ -20,7 +19,7 @@ async function getData(url) {
 function showCharacters(dades) {
   let pare = document.getElementById("characters");
 
-  dades.forEach((character) => {
+  dades.forEach(character => {
     //Create the div
     let div = document.createElement("div");
     //Add the class
@@ -47,5 +46,5 @@ function showCharacters(dades) {
 
 window.onload = () => {
   // Resolem la promesa amb then
-  getData(url).then((dades) => showCharacters(dades));
+  getData(url).then(dades => showCharacters(dades));
 };

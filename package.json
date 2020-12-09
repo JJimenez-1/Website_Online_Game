@@ -1,0 +1,39 @@
+{
+  "name": "website_online_game",
+  "version": "1.0.0",
+  "description": "Fate Grand Order es un videojuego móvil de rol japonés gratuito en línea, desarrollado por Delightworks con Unity, y publicado por Aniplex.\r El juego se centra en el combate por turnos en el que el jugador, que asume el papel de un \"Maestro\", convoca y ordena poderosos familiares conocidos como \"Servants\" para luchar contra los enemigos. La narración de la historia se presenta en un formato de novela visual, y cada sirviente tiene su propio escenario que el jugador puede explorar.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJimenez-1/Website_Online_Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJimenez-1/Website_Online_Game/issues"
+  },
+  "homepage": "https://github.com/JJimenez-1/Website_Online_Game#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "cssnano": "^4.1.10",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^9.0.0",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
