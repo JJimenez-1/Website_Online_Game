@@ -21,3 +21,7 @@ Fate/Grand Order recaudó $ 982 millones en 2017, por lo que es el sexto juego m
 ### Fuente usadas
 He utilizado vw para algunas letras, ya que no acertaba bien con la cantidad de pixeles a la hora de verse en el navegador y movil.
 ![Ejemplo1](/doc/fuente_letra/Captura.PNG)
+
+### Video de la pagina
+
+https://youtu.be/rA9E9Yh2uk4
