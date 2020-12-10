@@ -8,26 +8,16 @@
       defer
       src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index/styles.css" />
     <script src="js/menu.js"></script>
     <title>Fate Grand Order</title>
   </head>
 
   <body>
-    <div class="logo">
-      <img class="nombre" src="../assets/img/index/logo.png" />
-    </div>
-    <div class="topnav" id="myTopnav">
-      <a href="index.html" class="active">Home</a>
-      <a href="personaje.html">Noticias</a>
-      <a href="personaje.html">Personajes</a>
-      <a href="personaje.html">Eventos</a>
-      <a href="personaje.html">Galeria</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-    <div class="cuerpo">
+    <header></header>
+    <main>
       <div class="banner">
         <img src="../assets/img/index/banner.png" />
         <div class="historia">
@@ -132,14 +122,6 @@
           ><img class="destacado3" src="../assets/img/Cuchulainn.png"
         /></a>
       </div>
-      <!-- <div class="footer">
-        <img src="../assets/img/instagram.png">
-        <img src="../assets/img/facebook.png">
-        <img src="../assets/img/twitter.png">
-        <img src="../assets/img/youtube.png">
-        <img src="../assets/img/linkedin.png">
-        <p>Copyright 2020 Fate/Grand Order</p>
-      </div> -->
       <footer>
         <div class="footer">
           <img src="../assets/img/instagram.png" />
@@ -152,8 +134,13 @@
           </div>
         </div>
       </footer>
-    </div>
+    </main>
 
     <!-- Wrapper Ends -->
+    <script>
+      $(document).ready(() => {
+            $("header").load("resources/header.html");
+        });
+    </script>
   </body>
 </html>
